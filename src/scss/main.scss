@@ -1,0 +1,29 @@
+body,
+html {
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+main {
+	display: grid;
+	grid-template-columns: $navigation-width auto;
+	position: relative;
+}
+
+*:focus {
+	outline: none;
+}
+
+/* .nav-container {
+	width: 100%;
+	height: 100vh;
+	//background-color: #f2f6f9;
+} */
+
+.view-container {
+	width: 100vw;
+	height: 100vh;
+	background-color: #ebebeb;
+	//border-left: 1px solid $secondary;
+}

@@ -1,0 +1,53 @@
+{
+  "name": "znarf-chat-client",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "webpack --mode development",
+    "dist": "electron-builder",
+    "dist:arm64": "electron-builder --arm64",
+    "dist:armv7l ": "electron-builder --armv7l",
+    "pack": "electron-packager . electron-hangouts --platform linux --arch arm64 --out dist/",
+    "flatpak": "electron-installer-flatpak --src dist/electron-hangouts-linux-arm64/ --dest dist/installers/ --arch arm64"
+  },
+  "build": {
+    "linux": {
+      "target": {
+        "target": "appimage",
+        "arch": [
+          "armv7l"
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "electron-context-menu": "^2.3.0",
+    "electron-json-storage": "^4.2.0",
+    "electron-notification-shim": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "circular-dependency-plugin": "^5.2.0",
+    "css-loader": "^4.2.1",
+    "del": "^4.0.0",
+    "electron": "^10.1.1",
+    "electron-builder": "^22.8.0",
+    "electron-reload": "^1.5.0",
+    "file-loader": "^6.1.0",
+    "fs": "0.0.1-security",
+    "html-loader": "^1.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.2"
+  }
+}

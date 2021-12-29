@@ -1,0 +1,15 @@
+{
+    "iconDir": "./dist/images/icons/",
+    "apps": [
+        {
+            "name": "Gmail",
+            "url": "https://mail.google.com",
+            "icon": "gmail-icon.svg"
+        },
+        {
+            "name": "Hangouts",
+            "url": "https://hangouts.google.com",
+            "icon": "hangouts-icon.svg"
+        }
+    ]
+}

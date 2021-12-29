@@ -1,0 +1,32 @@
+div.prompt-container {
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	background-color: rgba($dark, 0.95);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 15;
+
+	.prompt-click-catcher {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+	}
+
+	.prompt-required {
+		background-color: rgba($danger, 1);
+		&::placeholder {
+			color: #fff;
+		}
+	}
+
+	.prompt-cancel,
+	.prompt-submit {
+		z-index: 100;
+	}
+}

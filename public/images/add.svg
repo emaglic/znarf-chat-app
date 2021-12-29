@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xml:space="preserve"
+   sodipodi:docname="add.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
+   id="metadata21"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs19" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1016"
+   id="namedview17"
+   showgrid="false"
+   inkscape:zoom="1.3964844"
+   inkscape:cx="256"
+   inkscape:cy="256"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Capa_1" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#4B4C4B;}
+</style>
+<g
+   id="g8"
+   style="fill:#ffffff">
+	<g
+   id="g6"
+   style="fill:#ffffff">
+		<path
+   class="st0"
+   d="M256,0C114.8,0,0,114.8,0,256s114.8,256,256,256s256-114.9,256-256S397.2,0,256,0z M256,472.3    c-119.3,0-216.3-97-216.3-216.3S136.7,39.7,256,39.7s216.3,97,216.3,216.3S375.3,472.3,256,472.3z"
+   id="path4"
+   style="fill:#ffffff" />
+	</g>
+</g>
+<g
+   id="g14"
+   style="fill:#ffffff">
+	<g
+   id="g12"
+   style="fill:#ffffff">
+		<path
+   class="st0"
+   d="M355.1,234.4h-79.3v-79.3c0-10.9-8.9-19.8-19.8-19.8s-19.8,8.9-19.8,19.8v79.3h-79.3    c-11,0-19.8,8.9-19.8,19.8s8.9,19.8,19.8,19.8h79.3v79.3c0,10.9,8.9,19.8,19.8,19.8c11,0,19.8-8.9,19.8-19.8V274h79.3    c11,0,19.8-8.9,19.8-19.8S366.1,234.4,355.1,234.4z"
+   id="path10"
+   style="fill:#ffffff" />
+	</g>
+</g>
+</svg>

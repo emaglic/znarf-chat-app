@@ -1,0 +1,125 @@
+.nav-container {
+	position: relative;
+	z-index: 20;
+
+	.nav-container-inner {
+		// width
+		&::-webkit-scrollbar {
+			width: 0px;
+		}
+
+		// Track
+		&::-webkit-scrollbar-track {
+			background: #f1f1f1;
+		}
+
+		// Handle
+		&::-webkit-scrollbar-thumb {
+			background: #888;
+		}
+
+		// Handle on hover
+		&::-webkit-scrollbar-thumb:hover {
+			background: #555;
+		}
+
+		height: calc(100vh - #{$navigation-button-height});
+		overflow-y: scroll;
+		overflow-x: visible;
+	}
+
+	.nav-button {
+		position: relative;
+		width: 100%;
+		height: $navigation-button-height;
+		//border-bottom: 1px solid #97a3b9;
+		margin: 0px auto;
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.service-icon-name {
+			position: absolute;
+			padding: 0 5%;
+			font-size: 0.7rem;
+			//background-color: $info;
+			color: $white;
+			text-align: center;
+			text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+			font-weight: bold;
+		}
+
+		&.selected {
+			background-color: rgba($light, 0.1);
+			border-left: 7px solid $primary;
+
+			.nav-close {
+				background-image: url('../images/icons/close-selected.svg');
+			}
+
+			.nav-delete {
+				background-image: url('../images/icons/delete-selected.svg');
+			}
+		}
+
+		.nav-close {
+			display: none;
+			position: absolute;
+			top: 5px;
+			right: 5px;
+			width: 10px;
+			height: 10px;
+			//visibility: hidden;
+			background-image: url('../images/icons/close-selected.svg');
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			&.hover {
+				//visibility: visible;
+				display: block;
+				fill: #fff;
+			}
+		}
+
+		.nav-delete {
+			//display: block;
+			display: none;
+			position: absolute;
+			top: 5px;
+			right: 5px;
+			width: 10px;
+			height: 10px;
+			//visibility: hidden;
+			background-image: url('../images/icons/delete-selected.svg');
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			&.hover {
+				display: block;
+				//visibility: visible;
+				fill: #fff;
+			}
+		}
+
+		.nav-icon {
+			display: block;
+			width: 50%;
+			height: auto;
+		}
+
+		.nav-badge {
+			width: 25%;
+			height: 25%;
+			border-radius: 50%;
+			color: #fff;
+			position: absolute;
+			right: $spacer2;
+			bottom: $spacer2;
+			font-family: sans-serif;
+			font-size: 0.85rem;
+		}
+	}
+}
